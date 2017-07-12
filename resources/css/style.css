@@ -42,15 +42,24 @@ p{
   padding-top: 18px;
 }
 #footer{
+  text-align: left;
   background-color: dimgray;
 }
 #footer p{
   text-align:left;
 }
-#footer span{
+#footer ul, li{
+  display:inline;
+  text-align: left;
+  list-style: none;
+  color:white;
+}
+/* needed for her wway
+  #footer span{
   font-size: 11px;
   color:white;
 }
+*/
 #footer a{
   color:white;
   font-size:18px;
